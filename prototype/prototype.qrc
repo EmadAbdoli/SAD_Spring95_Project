@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="prototype">
+    <file>Resources/15-Tick-icon.png</file>
+  </qresource>
+</RCC>
