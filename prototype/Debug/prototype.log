@@ -1,15 +1,25 @@
-﻿Build started 2/19/2016 11:11:57 PM.
-     1>Project "C:\Users\001E\Downloads\Telegram Desktop\prototype\prototype\prototype.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/28/2016 8:30:36 AM.
+     1>Project "D:\Master Documents\SAD\Project\prototype\prototype.vcxproj" on node 2 (Build target(s)).
      1>CustomBuild:
          Moc'ing prototype.h...
-         The system cannot find the path specified.
          Uic'ing prototype.ui...
-         The system cannot find the path specified.
          Rcc'ing prototype.qrc...
-         The system cannot find the path specified.
-     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppCommon.targets(170,5): error MSB6006: "cmd.exe" exited with code 3.
-     1>Done Building Project "C:\Users\001E\Downloads\Telegram Desktop\prototype\prototype\prototype.vcxproj" (Build target(s)) -- FAILED.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\Debug\moc_prototype.cpp main.cpp prototype.cpp
+         moc_prototype.cpp
+         main.cpp
+         prototype.cpp
+         Generating Code...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I.\GeneratedFiles /I. /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include /I.\GeneratedFiles\Debug /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtCore /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtGui /IC:\Qt\Qt5.5.1\5.5\msvc2013_64\include\QtWidgets /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D WIN64 /D QT_DLL /D QT_CORE_LIB /D QT_GUI_LIB /D QT_WIDGETS_LIB /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GeneratedFiles\qrc_prototype.cpp
+         qrc_prototype.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Master Documents\SAD\Project\prototype\Win32\Debug\\prototype.exe" /NOLOGO /LIBPATH:C:\Qt\Qt5.5.1\5.5\msvc2013_64\lib qtmaind.lib Qt5Cored.lib Qt5Guid.lib Qt5Widgetsd.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Master Documents\SAD\Project\prototype\Win32\Debug\prototype.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Master Documents\SAD\Project\prototype\Win32\Debug\prototype.lib" /MACHINE:X86 /SAFESEH Debug\moc_prototype.obj
+         Debug\qrc_prototype.obj
+         Debug\main.obj
+         Debug\prototype.obj
+     1>Qt5Cored.lib(Qt5Cored.dll) : fatal error LNK1112: module machine type 'x64' conflicts with target machine type 'X86'
+     1>Done Building Project "D:\Master Documents\SAD\Project\prototype\prototype.vcxproj" (Build target(s)) -- FAILED.
 
 Build FAILED.
 
-Time Elapsed 00:00:00.36
+Time Elapsed 00:00:16.23
