@@ -1,0 +1,12 @@
+<RCC>
+    <qresource prefix="/prototype">
+        <file>Resources/15-Tick-icon.png</file>
+        <file>Resources/copy.png</file>
+        <file>Resources/cut.png</file>
+        <file>Resources/new.png</file>
+        <file>Resources/open.png</file>
+        <file>Resources/paste.png</file>
+        <file>Resources/save.png</file>
+        <file>Resources/add.png</file>
+    </qresource>
+</RCC>

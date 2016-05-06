@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LawDatabase>
+	<Law name="some law">
+		<ProductConstraint>
+			<Product>
+				<Name>p1</Name>
+				<Company>c1</Company>
+				<Value>
+					<Min></Min>
+					<Max></Max>				
+				</Value>
+			</Product>
+			<Product>
+				<Name>p2</Name>
+				<Company>c2</Company>
+				<Value>454</Value>
+			</Product>
+			<Product>
+				<Name>p3</Name>
+				<Company>c3</Company>
+				<Value>45</Value>
+			</Product>
+		</ProductConstraint>
+		<DateConstraint>
+			<Min>02-01-2014</Min>
+			<Max>22-02-2011</Max>
+		</DateConstraint>
+		<CountryConstraint>
+			<Country>usa</Country>
+			<Country>uk</Country>
+		</CountryConstraint>
+		<ArrivalConstraint>
+			<Method>air</Method>
+		</ArrivalConstraint>
+		<TotalValueConstraint>
+			<Min></Min>
+			<Max></Max>
+		</TotalValueConstraint>
+	</Law>
+</LawDatabase>
