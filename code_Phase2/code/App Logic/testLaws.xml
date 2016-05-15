@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LawDatabase>
+    <Law name="some law">
+        <ProductConstraint>
+            <Product>p1</Product>
+            <Product>p2</Product>
+        </ProductConstraint>
+        <CompanyConstraint>
+            <Company>c1</Company>
+            <Company>c2</Company>
+        </CompanyConstraint>
+        <DateConstraint>
+            <Min>02-01-2014</Min>
+            <Max>22-02-2016</Max>
+        </DateConstraint>
+        <CountryConstraint>
+            <Country>usa</Country>
+            <Country>uk</Country>
+        </CountryConstraint>
+        <ArrivalConstraint>
+            <Method>air</Method>
+        </ArrivalConstraint>
+        <UnitValueConstraint>
+            <Min/>
+            <Max/>
+        </UnitValueConstraint>
+        <TotalValueConstraint>
+            <Min/>
+            <Max/>
+        </TotalValueConstraint>
+        <CertificateList>
+            <Certificate>A</Certificate>
+            <Certificate>B</Certificate>
+        </CertificateList>
+    </Law>
+    <Law name="law-2">
+        <ProductConstraint>
+            <Product>p2</Product>
+            <Product>p5</Product>
+            <Product>p9</Product>
+        </ProductConstraint>
+        <CompanyConstraint/>
+        <DateConstraint>
+            <Min>01-02-2000</Min>
+            <Max>05-01-2003</Max>
+        </DateConstraint>
+        <CountryConstraint/>
+        <ArrivalConstraint/>
+        <UnitValueConstraint>
+            <Min>1000</Min>
+            <Max>9000</Max>
+        </UnitValueConstraint>
+        <TotalValueConstraint/>
+        <CertificateList>
+            <Certificate>A</Certificate>
+        </CertificateList>
+    </Law>
+    <Law name="law-3">
+        <ProductConstraint/>
+        <CompanyConstraint/>
+        <DateConstraint/>
+        <CountryConstraint>
+            <Country>germany</Country>
+            <Country>japan</Country>
+        </CountryConstraint>
+        <ArrivalConstraint/>
+        <UnitValueConstraint/>
+        <TotalValueConstraint>
+            <Min>10</Min>
+            <Max>200</Max>
+        </TotalValueConstraint>
+        <CertificateList>
+            <Certificate>C</Certificate>
+        </CertificateList>
+    </Law>
+</LawDatabase>

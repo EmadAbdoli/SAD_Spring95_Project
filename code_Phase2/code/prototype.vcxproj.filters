@@ -1,0 +1,187 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e7f2364e-3f92-4f77-a863-a47ae71379e8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3307a063-b59e-437d-bf8d-eaacaaf3289f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Utility">
+      <UniqueIdentifier>{2d483beb-ebe2-4f97-bdc5-6e43d513da1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{3e108b29-2012-4496-a35e-8daf6a787d50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event Manager">
+      <UniqueIdentifier>{5e401320-ced2-481e-9517-853daa2f98b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FastDelegate">
+      <UniqueIdentifier>{91a0efee-f2b5-4372-8854-82d5eaf5ceb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Application">
+      <UniqueIdentifier>{fb9d762d-d5cc-4f6e-8a68-ae248adc399d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App Logic">
+      <UniqueIdentifier>{6e26abb0-50cb-46ce-a974-d944a0cc88f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXML">
+      <UniqueIdentifier>{a043f80e-5b4b-4211-8463-acd26be74356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Data Access">
+      <UniqueIdentifier>{5762fa99-5e5e-4810-978e-3d2bc87a97f2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="console.cpp">
+      <Filter>Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="Event Manager\EventManager.cpp">
+      <Filter>Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\MyApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_prototype.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Event Manager\Events.cpp">
+      <Filter>Event Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Application\BaseApplication.cpp">
+      <Filter>Application</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MyMainWindow.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MyMainWindow.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\MyMainWindow.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="App Logic\LawManager.cpp">
+      <Filter>App Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXML\tinyxml2.cpp">
+      <Filter>TinyXML</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ConstraintDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ConstraintDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\ConstraintDialog.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SystemFacade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="App Logic\XML_Helper.cpp">
+      <Filter>Data Access</Filter>
+    </ClCompile>
+    <ClCompile Include="App Logic\DatabaseManager.cpp">
+      <Filter>Data Access</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="UI\prototype.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\prototype.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\MyMainWindow.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\constraintdialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="UI\ConstraintDialog.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="console.h">
+      <Filter>Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Event Manager\EventManager.h">
+      <Filter>Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegate\FastDelegate.h">
+      <Filter>FastDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="FastDelegate\FastDelegateBind.h">
+      <Filter>FastDelegate</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\MyApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Event Manager\Events.h">
+      <Filter>Event Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="App Logic\Constraints.h">
+      <Filter>App Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_prototype.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Application\BaseApplication.h">
+      <Filter>Application</Filter>
+    </ClInclude>
+    <ClInclude Include="App Logic\LawManager.h">
+      <Filter>App Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXML\tinyxml2.h">
+      <Filter>TinyXML</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_constraintdialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SystemFacade.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="App Logic\XML_Helper.h">
+      <Filter>Data Access</Filter>
+    </ClInclude>
+    <ClInclude Include="App Logic\DatabaseManager.h">
+      <Filter>Data Access</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
